@@ -7,7 +7,7 @@ namespace Consulta_API_IMDB
 {
     public static class APICall
     {
-        public static async Task Teste()
+        public static async Task Call()
         {
 
             // https://rapidapi.com/apidojo/api/online-movie-database/
@@ -20,7 +20,7 @@ namespace Consulta_API_IMDB
                 var response = await httpClient.GetAsync($"https://online-movie-database.p.rapidapi.com/title/get-top-rated-movies");
                 var code = response.StatusCode;
                 var message = await response.Content.ReadAsStringAsync();
-                var result = JsonSerializer.Deserialize<List<MoviesResponse>>(message).Take(2);
+                var result = JsonSerializer.Deserialize<List<MoviesResponse>>(message).Take(10);
 
                 foreach (var x in result)
                 {

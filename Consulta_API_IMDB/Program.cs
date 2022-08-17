@@ -6,7 +6,7 @@
         {
 
             Console.WriteLine("TOP 10 FILMES IMDB");
-            APICall.Teste().GetAwaiter().GetResult();
+            APICall.Call().GetAwaiter().GetResult();
             
 		}
 
