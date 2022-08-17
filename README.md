@@ -8,3 +8,5 @@ Alguns exemplos de API:
  - Para os atletas de plantão, [Strava](https://developers.strava.com/). Dica: para a api do strava você precisa cadastrar seu "app" e gerar um token que deve ser enviado a cada request.
  - [Spotify](https://developer.spotify.com/documentation/web-api/quick-start/). Dica: mesmo esquema do strava, você deve registrar seu app e gerar um token
  - [publicapis](https://api.publicapis.org/entries) é uma api que lista apis publicas
+
+<h4> API Utilizada: <a href=https://rapidapi.com/apidojo/api/online-movie-database/ target="_blank"> Online Movie Database </a> </h4>
